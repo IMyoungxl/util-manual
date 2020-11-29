@@ -45,7 +45,8 @@ spring工具使用手册
   @ApiModelProperty：描述一个model的属性
 ```
 
-###第一步：导入依赖包
+第一步：导入依赖包
+---
 
 ```xml
 <dependency>
@@ -60,7 +61,8 @@ spring工具使用手册
  </dependency>
  ```
 
-###第二步：创建Swagger2配置类
+第二步：创建Swagger2配置类
+---
 ```java
 @Configuration
 @EnableSwagger2
@@ -102,7 +104,8 @@ public class Swagger2 {
 ```
 如上代码所示，通过createRestApi函数创建Docket的Bean之后，apiInfo()用来创建该Api的基本信息（这些基本信息会展现在文档页面中）
 
-###第三步：使用Swagger提供的注解
+第三步：使用Swagger提供的注解
+---
 ```java
 
 @RestController
